@@ -3,7 +3,7 @@ import { TaskService } from './task.service';
 import { TaskController } from './task.controller';
 
 import { MongooseModule } from '@nestjs/mongoose';
-import { Task, TaskSchema } from './schemas/task.db';
+import { Task, TaskSchema } from './_db/task.db';
 
 @Module({
   providers: [TaskService],
