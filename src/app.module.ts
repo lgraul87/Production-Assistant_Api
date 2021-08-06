@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
-import { TaskModule } from './production/task.module'
+import { TaskModule } from './task/task.module'
 
 import { MongooseModule } from '@nestjs/mongoose';
 
 
 @Module({
-  imports: [TaskModule,MongooseModule.forRoot('mongodb://localhost/task')],
+  imports: [TaskModule,MongooseModule.forRoot('mongodb://localhost/production-assistant')],
   controllers: [],
   providers: [],
 })
