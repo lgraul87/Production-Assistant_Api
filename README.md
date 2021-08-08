@@ -23,6 +23,9 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+"Production Assistant Api", (REST API Application) is the Back End Application for Production Assistant App by Raul Lora Gomez.
+
+Need a MongoDB database application or you can use a container's Docker like me.
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
