@@ -1,8 +1,7 @@
-export interface CreateTaskDto {
+export class CreateTaskDto {
     name: string;
     type:string;
     description: string;
     duration: string;
     date: string;
 }
-export class CreateTaskDto { }

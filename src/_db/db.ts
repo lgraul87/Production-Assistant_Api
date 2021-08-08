@@ -20,5 +20,23 @@ export class Task {
   @Prop({ required: true })
   date: string;
 }
+export type UserDocument = User & Document;
 
-export const TaskSchema = SchemaFactory.createForClass(Task);
+@Schema()
+export class User {
+  @Prop({ required: true })
+  name: string;
+
+  @Prop({ required: true })
+  lastName: string;
+
+  @Prop({ required: true })
+  photo: string;
+
+  @Prop({ required: true })
+  email: string;
+}
+ export const TaskSchema = SchemaFactory.createForClass(Task);
+ export const UserSchema = SchemaFactory.createForClass(User);
+
+
